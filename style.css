@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+body {
+    background-image: url("https://2.bp.blogspot.com/-ZOQEZzLsB50/V89wZ4z27uI/AAAAAAAAAaU/UqejOE-PfQoVAGWO-gq3l__fPPQM9l7zgCLcB/s1920/Nature_Wave_Ocean_Sunset_Sunlight_Water_hd.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-container {
+    width: 380px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px; 
+    margin: 8px auto;
+
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
+
+.input-container input::placeholder {
+    color: white;
+}
+
+.input-container img {
+    position: absolute;
+    right: 24px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    top: 20%;
+
+}
+
+.input-container a {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500px;
+
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+}
+
+.link{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 2px;
+}
+.link a{
+    text-decoration:none;
+    color: white;
+
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.submit-button {
+    background-color:rgb(2, 93, 222);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-weight: 500px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color:blue;
+}
+
+.register {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300px;
+
+}
+
+.register p a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700px;
+    text-decoration: none;
+
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
